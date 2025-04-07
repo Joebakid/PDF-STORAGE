@@ -13,6 +13,12 @@ return <a className='pdf-content' href={href} target='_blank'>{name}</a>
     <>
       <div className='container '>
 
+      <header className="header">
+  <h1 className="main-title">Marine Engineering Document Repository</h1>
+  <p className="sub-title">Access and download course materials for MAR511 and EEE516</p>
+</header>
+
+
 
         <div className='content-course-container mb'>
         <h2 className='title-course'>MAR511</h2>
