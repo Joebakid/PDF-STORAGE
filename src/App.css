@@ -1,0 +1,54 @@
+ 
+ 
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ body{
+  background-color: rgb(63, 62, 62);
+ }
+ 
+ .container {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 200px 1rem;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+
+.pdf-content{
+  background-color: rgb(79, 180, 180);
+  padding: 10px 5pc;
+  transition: all 0.5s ease-in-out;
+  border-radius: 20px;
+}
+
+.content-course-container{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  flex-grow: 0;
+  align-items: flex-start;
+}
+
+.pdf-content:hover{
+  background-color: chocolate;
+}
+
+.flex-pdf-content{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+.mb{
+  margin-bottom:100px ;
+}
