@@ -42,11 +42,11 @@ return <a className='pdf-content' href={href} target='_blank'>{name}</a>
         <h2 className='title-course'>EEE516</h2>
 
         <div className='flex-pdf-content'>
-        <Doc href='https://drive.google.com/file/d/1u9YNxRcqdbp7Wr0oPCY-i8JodCp1lsmX/view?usp=drive_link' name='First Part'/>
+        <Doc href='https://drive.google.com/file/d/1DHjYmAlnzDveQ5nyxFEkKPxpJKm3vkVu/view?usp=drive_link' name='First Part'/>
        
        <Doc href='https://drive.google.com/file/d/1ygFSckv7MGyRxSrEel8jS7JLLQW7Uh1X/view?usp=drive_link' name='Amplifier 1'/>
        
-       <Doc href='https://drive.google.com/file/d/1u9YNxRcqdbp7Wr0oPCY-i8JodCp1lsmX/view?usp=drive_link' name='Amplifier 2'/>
+        
        
         </div>
     
