@@ -45,6 +45,10 @@ function App() {
     { name: 'Amplifier 1', href: 'https://drive.google.com/file/d/1ygFSckv7MGyRxSrEel8jS7JLLQW7Uh1X/view?usp=drive_link' }
   ];
 
+  const mar532=[
+    {name:'532 Note', href:'https://drive.google.com/file/d/1oEggW6O4d2vEhJT9BbT3WBtCtYSf-PqM/view?usp=drive_link'}
+  ]
+
   return (
     <div className='container'>
       <header className="header">
@@ -54,6 +58,7 @@ function App() {
 
       <CourseSection title="MAR511" docs={mar511Docs} />
       <CourseSection title="EEE516" docs={eee516Docs} />
+      <CourseSection title="MAR532" docs={mar532} />
     </div>
   );
 }
