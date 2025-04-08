@@ -49,6 +49,10 @@ function App() {
     {name:'532 Note', href:'https://drive.google.com/file/d/1oEggW6O4d2vEhJT9BbT3WBtCtYSf-PqM/view?usp=drive_link'}
   ]
 
+  const get511=[
+    {name:'511 PDF', href:'https://drive.google.com/file/d/1c7Wv9xMjSrIPMNB5zMKufO_5gHLfB1Oz/view?usp=drive_link'}
+  ]
+
   return (
     <div className='container'>
       <header className="header">
@@ -59,6 +63,7 @@ function App() {
       <CourseSection title="MAR511" docs={mar511Docs} />
       <CourseSection title="EEE516" docs={eee516Docs} />
       <CourseSection title="MAR532" docs={mar532} />
+      <CourseSection title="GET511" docs={get511} />
     </div>
   );
 }
