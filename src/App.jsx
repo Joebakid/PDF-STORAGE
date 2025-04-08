@@ -12,7 +12,7 @@ function Doc({ name, href }) {
 }
 
 function CourseSection({ title, docs }) {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className='content-course-container mb'>
