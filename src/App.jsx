@@ -53,7 +53,7 @@ function App() {
     <div className='container'>
       <header className="header">
         <h1 className="main-title">Marine Engineering Document Repository</h1>
-        <p className="sub-title">Access and download course materials for MAR511 and EEE516</p>
+        <p className="sub-title">Access and download course materials for Offshore</p>
       </header>
 
       <CourseSection title="MAR511" docs={mar511Docs} />
