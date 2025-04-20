@@ -64,6 +64,10 @@ function App() {
     {name:'course primeer 1', href:'https://drive.google.com/file/d/1xwyQlBXLlHyEGxkKlx5HkRXv8hlXgDNL/view?usp=drive_link'}
   ]
 
+  const mee512=[
+    {name:'512 pdf', href:'https://drive.google.com/file/d/1as-Q1S1GshEvdnonX_E5jqAlgu1g5pC2/view?usp=drive_link'}
+  ]
+
   return (
     <div className='container'>
       <header className="header">
@@ -76,6 +80,7 @@ function App() {
       <CourseSection title="MAR532" docs={mar532} />
       <CourseSection title="GET511" docs={get511} />
       <CourseSection title="MAR512" docs={mar512} />
+      <CourseSection title='MEE512' docs={mee512}/>
     </div>
   );
 }
