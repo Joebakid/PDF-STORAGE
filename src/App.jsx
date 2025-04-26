@@ -164,7 +164,7 @@ function App() {
       <CourseSection title='MEE512' docs={mee512}/>
       <CourseSection title='PAST QUESTION' docs={PQ}/>
  
-      <CourseSection title="MEE512" docs={mee512} />
+      {/* <CourseSection title="MEE512" docs={mee512} /> */}
  
     </div>
   );
