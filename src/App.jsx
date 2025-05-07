@@ -146,6 +146,10 @@ function App() {
     },
   ];
 
+  const PQ=[{
+    name:'PastQuestion',href:'https://drive.google.com/file/d/1PzAnh1Z8V_RKPmW0nMG3k8WrSbG8DfBr/view?usp=drive_link'
+  }]
+
   return (
     <div className="container">
       <header className="header">
@@ -160,7 +164,12 @@ function App() {
       <CourseSection title="MAR532" docs={mar532} />
       <CourseSection title="GET511" docs={get511} />
       <CourseSection title="MAR512" docs={mar512} />
-      <CourseSection title="MEE512" docs={mee512} />
+ 
+      <CourseSection title='MEE512' docs={mee512}/>
+      <CourseSection title='PAST QUESTION' docs={PQ}/>
+ 
+      {/* <CourseSection title="MEE512" docs={mee512} /> */}
+ 
     </div>
   );
 }
