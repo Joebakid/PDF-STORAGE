@@ -133,6 +133,18 @@ function App() {
       name: "course primeer 1",
       href: "https://drive.google.com/file/d/1xwyQlBXLlHyEGxkKlx5HkRXv8hlXgDNL/view?usp=drive_link",
     },
+    {
+      name: "System Model Simulation_101633",
+      href: "https://drive.google.com/file/d/1CbkL-Kvzm3YPLgDwreN1Hd_BG1Adwc-N/view?usp=drive_link",
+    },
+    {
+      name: "Propeller Geometry_103001",
+      href: "https://drive.google.com/file/d/1RkVdibVSN7SkSi2PMKlrFECMO3Ylw58I/view?usp=drive_link",
+    },
+    {
+      name: "simulator in marine engineering_101639",
+      href: "https://drive.google.com/file/d/18AfjlLD5xEV8sMRRJ_kbZcC_RrQJI447/view?usp=drive_link",
+    },
   ];
 
   const mee512 = [
@@ -146,9 +158,12 @@ function App() {
     },
   ];
 
-  const PQ=[{
-    name:'PastQuestion',href:'https://drive.google.com/file/d/1PzAnh1Z8V_RKPmW0nMG3k8WrSbG8DfBr/view?usp=drive_link'
-  }]
+  const PQ = [
+    {
+      name: "PastQuestion",
+      href: "https://drive.google.com/file/d/1PzAnh1Z8V_RKPmW0nMG3k8WrSbG8DfBr/view?usp=drive_link",
+    },
+  ];
 
   return (
     <div className="container">
@@ -164,12 +179,11 @@ function App() {
       <CourseSection title="MAR532" docs={mar532} />
       <CourseSection title="GET511" docs={get511} />
       <CourseSection title="MAR512" docs={mar512} />
- 
-      <CourseSection title='MEE512' docs={mee512}/>
-      <CourseSection title='PAST QUESTION' docs={PQ}/>
- 
+
+      <CourseSection title="MEE512" docs={mee512} />
+      <CourseSection title="PAST QUESTION" docs={PQ} />
+
       {/* <CourseSection title="MEE512" docs={mee512} /> */}
- 
     </div>
   );
 }
