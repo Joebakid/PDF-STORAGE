@@ -145,6 +145,10 @@ function App() {
       name: "simulator in marine engineering_101639",
       href: "https://drive.google.com/file/d/18AfjlLD5xEV8sMRRJ_kbZcC_RrQJI447/view?usp=drive_link",
     },
+    {
+      name: "MAR512 CALCULATIONS",
+      href: "https://drive.google.com/file/d/1awjVcEEeAnLcZD2e74m1A9DABidd-XOj/view?usp=drive_link",
+    },
   ];
 
   const mee512 = [
