@@ -61,6 +61,10 @@ function App() {
       name: "HYDRAULIC AND PNEUMATIC COURSE PRIMER 1",
       href: "https://drive.google.com/file/d/196Cj_0U0jRfd89fXXyml-h3zUF_rcuUK/view?usp=drive_link",
     },
+    {
+      name: "Pneumatic Air generation and distribution",
+      href: "https://drive.google.com/file/d/196Cj_0U0jRfd89fXXyml-h3zUF_rcuUK/view?usp=drive_link",
+    },
   ];
 
   const eee516Docs = [
