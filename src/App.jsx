@@ -91,6 +91,26 @@ function App() {
       name: "532 Note",
       href: "https://drive.google.com/file/d/1oEggW6O4d2vEhJT9BbT3WBtCtYSf-PqM/view?usp=drive_link",
     },
+    {
+      name: "shipyard",
+      href: "https://drive.google.com/file/d/1vhL5JXqqxwza3N0sR_eNLeS-wHNu3yfa/view?usp=drive_link",
+    },
+    {
+      name: "port engineering",
+      href: "https://drive.google.com/file/d/1wPoY2-1ekHN-W3NCUH2ZYL0qM6qZWSvx/view?usp=drive_link",
+    },
+    {
+      name: "Past Question",
+      href: "https://drive.google.com/file/d/1kIMVTAtw1e1OlbOnCviwzhLR0jjOq5yO/view?usp=drive_link",
+    },
+    {
+      name: "cargo handling",
+      href: "https://drive.google.com/file/d/1FPS4_Ur_29BbvshdMk1eAWJ-_YIGQDCi/view?usp=drive_link",
+    },
+    {
+      name: "cargo handling 2",
+      href: "https://drive.google.com/file/d/1s848rB56_c1Kzfk-rWPuFu3PNR-LKjYI/view?usp=drive_link",
+    },
   ];
 
   const get511 = [
