@@ -195,6 +195,10 @@ function App() {
       name: "OIL AND GAS INDUSTRY",
       href: "https://docs.google.com/document/d/1ri6bGMTErGvIhs6M3DsDnLI6Bwfd1qsr/edit?usp=drive_link&ouid=104088915639541106384&rtpof=true&sd=true",
     },
+    {
+      name: "OFFSHORE OIL AND GAS PRODUCTION SYSTEM",
+      href: "https://drive.google.com/file/d/1YdJwnlr6djH1LhKpoiKd6qQEPvfpWxYY/view?usp=drive_link",
+    },
   ];
 
   const PQ = [
