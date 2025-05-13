@@ -180,9 +180,21 @@ function App() {
       name: "ch-23",
       href: "https://drive.google.com/file/d/1u1oxQKvGltMByGAUyeepdLC28-FlJi8_/view?usp=drive_link",
     },
-    {name:'MEE512 NOTE',
-      href:'https://drive.google.com/file/d/1RBrMn9YVuOb1Chs4n5DhdjD3NcAAUW0F/view?usp=drive_link'
-    }
+    {
+      name: "MEE512 NOTE",
+      href: "https://drive.google.com/file/d/1RBrMn9YVuOb1Chs4n5DhdjD3NcAAUW0F/view?usp=drive_link",
+    },
+  ];
+
+  const mar518 = [
+    {
+      name: "Drilling engr",
+      href: "https://drive.google.com/file/d/1L5hyTA7PUHXP4_CWGLybWOJ0zCR0yY8U/view?usp=drive_link",
+    },
+    {
+      name: "OIL AND GAS INDUSTRY",
+      href: "https://docs.google.com/document/d/1ri6bGMTErGvIhs6M3DsDnLI6Bwfd1qsr/edit?usp=drive_link&ouid=104088915639541106384&rtpof=true&sd=true",
+    },
   ];
 
   const PQ = [
@@ -210,7 +222,7 @@ function App() {
       <CourseSection title="MEE512" docs={mee512} />
       <CourseSection title="PAST QUESTION" docs={PQ} />
 
-      {/* <CourseSection title="MEE512" docs={mee512} /> */}
+      {<CourseSection title="MAR518" docs={mar518} />}
     </div>
   );
 }
