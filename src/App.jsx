@@ -180,6 +180,9 @@ function App() {
       name: "ch-23",
       href: "https://drive.google.com/file/d/1u1oxQKvGltMByGAUyeepdLC28-FlJi8_/view?usp=drive_link",
     },
+    {name:'MEE512 NOTE',
+      href:'https://drive.google.com/file/d/1RBrMn9YVuOb1Chs4n5DhdjD3NcAAUW0F/view?usp=drive_link'
+    }
   ];
 
   const PQ = [
