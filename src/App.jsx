@@ -129,6 +129,10 @@ function App() {
       name: "course primeer 1",
       href: "https://drive.google.com/file/d/1xwyQlBXLlHyEGxkKlx5HkRXv8hlXgDNL/view?usp=drive_link",
     },
+    {
+      name:'Noah Note',
+      href:'https://drive.google.com/file/d/1haG-IJ_v2XK-oQjQUPLzddpIE34L0zDW/view?usp=drive_link'
+    }
   ];
 
   const mee512 = [
