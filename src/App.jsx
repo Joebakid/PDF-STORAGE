@@ -61,6 +61,10 @@ function App() {
       name: "HYDRAULIC AND PNEUMATIC COURSE PRIMER 1",
       href: "https://drive.google.com/file/d/196Cj_0U0jRfd89fXXyml-h3zUF_rcuUK/view?usp=drive_link",
     },
+    {
+      name: "Pneumatic Air generation and distribution",
+      href: "https://drive.google.com/file/d/13exRL_hgLtViyAmoRFFfycsIKmSEe3Gg/view?usp=drive_link",
+    },
   ];
 
   const eee516Docs = [
@@ -86,6 +90,26 @@ function App() {
     {
       name: "532 Note",
       href: "https://drive.google.com/file/d/1oEggW6O4d2vEhJT9BbT3WBtCtYSf-PqM/view?usp=drive_link",
+    },
+    {
+      name: "shipyard",
+      href: "https://drive.google.com/file/d/1vhL5JXqqxwza3N0sR_eNLeS-wHNu3yfa/view?usp=drive_link",
+    },
+    {
+      name: "port engineering",
+      href: "https://drive.google.com/file/d/1wPoY2-1ekHN-W3NCUH2ZYL0qM6qZWSvx/view?usp=drive_link",
+    },
+    {
+      name: "Past Question",
+      href: "https://drive.google.com/file/d/1kIMVTAtw1e1OlbOnCviwzhLR0jjOq5yO/view?usp=drive_link",
+    },
+    {
+      name: "cargo handling",
+      href: "https://drive.google.com/file/d/1FPS4_Ur_29BbvshdMk1eAWJ-_YIGQDCi/view?usp=drive_link",
+    },
+    {
+      name: "cargo handling 2",
+      href: "https://drive.google.com/file/d/1s848rB56_c1Kzfk-rWPuFu3PNR-LKjYI/view?usp=drive_link",
     },
   ];
 
@@ -130,9 +154,27 @@ function App() {
       href: "https://drive.google.com/file/d/1xwyQlBXLlHyEGxkKlx5HkRXv8hlXgDNL/view?usp=drive_link",
     },
     {
+ 
       name:'Noah Note',
       href:'https://drive.google.com/file/d/1haG-IJ_v2XK-oQjQUPLzddpIE34L0zDW/view?usp=drive_link'
+    },
+  {
+      name: "System Model Simulation_101633",
+      href: "https://drive.google.com/file/d/1CbkL-Kvzm3YPLgDwreN1Hd_BG1Adwc-N/view?usp=drive_link",
+    },
+    {
+      name: "Propeller Geometry_103001",
+      href: "https://drive.google.com/file/d/1RkVdibVSN7SkSi2PMKlrFECMO3Ylw58I/view?usp=drive_link",
+    },
+    {
+      name: "simulator in marine engineering_101639",
+      href: "https://drive.google.com/file/d/18AfjlLD5xEV8sMRRJ_kbZcC_RrQJI447/view?usp=drive_link",
+    },
+    {
+      name: "MAR512 CALCULATIONS",
+      href: "https://drive.google.com/file/d/1awjVcEEeAnLcZD2e74m1A9DABidd-XOj/view?usp=drive_link",
     }
+ 
   ];
 
   const mee512 = [
@@ -144,11 +186,33 @@ function App() {
       name: "ch-23",
       href: "https://drive.google.com/file/d/1u1oxQKvGltMByGAUyeepdLC28-FlJi8_/view?usp=drive_link",
     },
+    {
+      name: "MEE512 NOTE",
+      href: "https://drive.google.com/file/d/1RBrMn9YVuOb1Chs4n5DhdjD3NcAAUW0F/view?usp=drive_link",
+    },
   ];
 
-  const PQ=[{
-    name:'PastQuestion',href:'https://drive.google.com/file/d/1PzAnh1Z8V_RKPmW0nMG3k8WrSbG8DfBr/view?usp=drive_link'
-  }]
+  const mar518 = [
+    {
+      name: "Drilling engr",
+      href: "https://drive.google.com/file/d/1L5hyTA7PUHXP4_CWGLybWOJ0zCR0yY8U/view?usp=drive_link",
+    },
+    {
+      name: "OIL AND GAS INDUSTRY",
+      href: "https://docs.google.com/document/d/1ri6bGMTErGvIhs6M3DsDnLI6Bwfd1qsr/edit?usp=drive_link&ouid=104088915639541106384&rtpof=true&sd=true",
+    },
+    {
+      name: "OFFSHORE OIL AND GAS PRODUCTION SYSTEM",
+      href: "https://drive.google.com/file/d/1YdJwnlr6djH1LhKpoiKd6qQEPvfpWxYY/view?usp=drive_link",
+    },
+  ];
+
+  const PQ = [
+    {
+      name: "PastQuestion",
+      href: "https://drive.google.com/file/d/1PzAnh1Z8V_RKPmW0nMG3k8WrSbG8DfBr/view?usp=drive_link",
+    },
+  ];
 
   return (
     <div className="container">
@@ -164,12 +228,11 @@ function App() {
       <CourseSection title="MAR532" docs={mar532} />
       <CourseSection title="GET511" docs={get511} />
       <CourseSection title="MAR512" docs={mar512} />
- 
-      <CourseSection title='MEE512' docs={mee512}/>
-      <CourseSection title='PAST QUESTION' docs={PQ}/>
- 
-      {/* <CourseSection title="MEE512" docs={mee512} /> */}
- 
+
+      <CourseSection title="MEE512" docs={mee512} />
+      <CourseSection title="PAST QUESTION" docs={PQ} />
+
+      {<CourseSection title="MAR518" docs={mar518} />}
     </div>
   );
 }
