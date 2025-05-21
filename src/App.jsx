@@ -201,6 +201,21 @@ function App() {
     },
   ];
 
+  const mar517 = [
+    {
+      name: "CamScanner 04-10-2025 07.17",
+      href: "https://drive.google.com/file/d/1LxLsSG-3k8h7ceGT5UFwvXYjXJkth_2K/view?usp=drive_link",
+    },
+    {
+      name: "CamScanner 02-03-2025 07.41",
+      href: "https://drive.google.com/file/d/1DurCi5Sm64jeZwDl0NHI-nb5Oa81I6d_/view?usp=drive_link",
+    },
+    {
+      name: "graph",
+      href: "https://drive.google.com/file/d/1ggOLxAK8ycDsb3MZOHketZnMMdk944uN/view?usp=drive_link",
+    },
+  ];
+
   const PQ = [
     {
       name: "PastQuestion",
@@ -216,7 +231,7 @@ function App() {
           Access and download course materials for Offshore
         </p>
       </header>
-
+      {<CourseSection title="MAR517" docs={mar517} />}
       <CourseSection title="MAR511" docs={mar511Docs} />
       <CourseSection title="EEE516" docs={eee516Docs} />
       <CourseSection title="MAR532" docs={mar532} />
