@@ -154,6 +154,11 @@ function App() {
       href: "https://drive.google.com/file/d/1xwyQlBXLlHyEGxkKlx5HkRXv8hlXgDNL/view?usp=drive_link",
     },
     {
+ 
+      name:'Noah Note',
+      href:'https://drive.google.com/file/d/1haG-IJ_v2XK-oQjQUPLzddpIE34L0zDW/view?usp=drive_link'
+    },
+  {
       name: "System Model Simulation_101633",
       href: "https://drive.google.com/file/d/1CbkL-Kvzm3YPLgDwreN1Hd_BG1Adwc-N/view?usp=drive_link",
     },
@@ -168,7 +173,8 @@ function App() {
     {
       name: "MAR512 CALCULATIONS",
       href: "https://drive.google.com/file/d/1awjVcEEeAnLcZD2e74m1A9DABidd-XOj/view?usp=drive_link",
-    },
+    }
+ 
   ];
 
   const mee512 = [
