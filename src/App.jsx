@@ -84,6 +84,14 @@ function App() {
       name: "sensor and transducers",
       href: "https://drive.google.com/file/d/1rAyRIDxuRReyQb6sd8MmWx0Dr6xn6Igb/view?usp=drive_link",
     },
+    {
+      name: "Karnaugh MAP made easy",
+      href: "https://youtu.be/ay-I6Sf4_iM?si=0w9hv4CO4mHhqdC4",
+    },
+    {
+      name: "Logic gate",
+      href: "https://youtube.com/watch?v=Eim_G1pHkUU&feature=shared",
+    },
   ];
 
   const mar532 = [
@@ -154,11 +162,10 @@ function App() {
       href: "https://drive.google.com/file/d/1xwyQlBXLlHyEGxkKlx5HkRXv8hlXgDNL/view?usp=drive_link",
     },
     {
- 
-      name:'Noah Note',
-      href:'https://drive.google.com/file/d/1haG-IJ_v2XK-oQjQUPLzddpIE34L0zDW/view?usp=drive_link'
+      name: "Noah Note",
+      href: "https://drive.google.com/file/d/1haG-IJ_v2XK-oQjQUPLzddpIE34L0zDW/view?usp=drive_link",
     },
-  {
+    {
       name: "System Model Simulation_101633",
       href: "https://drive.google.com/file/d/1CbkL-Kvzm3YPLgDwreN1Hd_BG1Adwc-N/view?usp=drive_link",
     },
@@ -173,8 +180,7 @@ function App() {
     {
       name: "MAR512 CALCULATIONS",
       href: "https://drive.google.com/file/d/1awjVcEEeAnLcZD2e74m1A9DABidd-XOj/view?usp=drive_link",
-    }
- 
+    },
   ];
 
   const mee512 = [
