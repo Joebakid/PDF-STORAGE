@@ -85,11 +85,11 @@ function App() {
       href: "https://drive.google.com/file/d/1rAyRIDxuRReyQb6sd8MmWx0Dr6xn6Igb/view?usp=drive_link",
     },
     {
-      name: "Karnaugh MAP made easy",
+      name: "Karnaugh MAP made easy(Youtube Video)",
       href: "https://youtu.be/ay-I6Sf4_iM?si=0w9hv4CO4mHhqdC4",
     },
     {
-      name: "Logic gate",
+      name: "Logic gate(Youtube Video)",
       href: "https://youtube.com/watch?v=Eim_G1pHkUU&feature=shared",
     },
   ];
