@@ -92,6 +92,14 @@ function App() {
       name: "Logic gate(Youtube Video)",
       href: "https://youtube.com/watch?v=Eim_G1pHkUU&feature=shared",
     },
+    {
+      name: "eee Assigment",
+      href: "https://drive.google.com/file/d/1qa6M1Z_NDGvczAniNY6Q0rXYhJ0xpP7W/view?usp=drive_link",
+    },
+    {
+      name: "mechantronic",
+      href: "https://drive.google.com/file/d/1TBBXR7pfY7Grw2Y8bTe9CRU335hRjfGW/view?usp=drive_link",
+    },
   ];
 
   const mar532 = [
